@@ -16,10 +16,10 @@ public class Runner {
         int[] array3 = {2, 3, 6, 7, 10};
         int[] array4 = {3, 9, 27, 81, 243};
 
-        System.out.println(verify.isArithmetic(array1));
-        System.out.println(verify.isArithmetic(array2));
-        System.out.println(verify.isArithmetic(array3));
-        System.out.println(verify.isArithmetic(array4));
+        System.out.println(verify.isSequenceArithmetic(array1));
+        System.out.println(verify.isSequenceArithmetic(array2));
+        System.out.println(verify.isSequenceArithmetic(array3));
+        System.out.println(verify.isSequenceArithmetic(array4));
 
         System.out.println("\n");
 
